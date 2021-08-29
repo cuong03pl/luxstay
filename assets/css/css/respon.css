@@ -493,7 +493,7 @@
     .slider {
         padding: 0 20px;
     }
-
+    
     .app-introduce-qrcode {
         display: none;
     }
@@ -529,6 +529,20 @@
     .app-introduce-heading {
         margin: 0;
         font-size: 2rem;
+    }
+
+    .header-right-list {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-start;
+    width: 90%;
+    left: 0;
+    top: 0;
+    background: var(--white-color);
+    height: 100%;
+    padding: 20px;
+    position: fixed;
     }
     
   }
